@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Time Calc Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="dist/scripts.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left-panel">
+            <h1>Racetime to Multitwitch</h1>
+            <p>Paste the url of a racetime lobby into the input box and receive a link to a multitwitch with all the players in the lobby</p>
+            <p>To Do: Add functionality to select any game -> active races -> open races -> select 1 if conflict / add better more output functionality</p>
+        </div>
+
+        <div class="main-content">
+            <div class="input">
+                <input type="text" id="input" autocomplete="off" placeholder="Input Link To Convert">
+                <button id="paste">Paste</button>
+            </div>
+
+            <div class="output">
+                <input type="text" id="output" readonly placeholder="Output Link">
+                <button id="copy">Copy</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
