@@ -2,6 +2,7 @@ const input = document.getElementById('input') as HTMLInputElement;
 const output = document.getElementById('output') as HTMLInputElement;
 const pasteBtn = document.getElementById('paste') as HTMLButtonElement;
 const copyBtn = document.getElementById('copy') as HTMLButtonElement;
+const convBtn = document.getElementById('convert') as HTMLButtonElement;
 
 let players: string[] = [];
 interface Entrant {
@@ -40,6 +41,13 @@ function performConversion() {
     output.value = "";
     output.value = mtBase + pStr;
 }
+
+convBtn.addEventListener('click', async () => {
+    output.value = "Loading...";
+    convBtn.textContent = "Clicked";
+    setTimeout(() => (convBtn.textContent = "Convert"), 1000);
+    await getStreams();
+});
 
 pasteBtn.addEventListener('click', async () => {
     output.value = "Loading...";
