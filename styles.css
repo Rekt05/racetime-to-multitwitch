@@ -20,14 +20,36 @@ body {
     justify-content: center;
 }
 
+.mode-switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    transition: background 0.2s;
+    font-weight: bold;
+    color: #e8e6e3;
+    align-self: center;
+}
+
+.mode-switch:hover {
+    background-color: #2d3031;
+}
+
+.mode-switch .icon {
+    font-size: 24px;
+}
+
 .left-panel h1 {
     text-align: center;
-    margin-top : 0px;
+    margin-top: 0px;
 }
 
 .left-panel p {
     text-align: center;
-    margin-top : 0px;
+    margin-top: 0px;
 }
 
 a, a:visited {
@@ -42,6 +64,37 @@ a, a:visited {
     flex-direction: column;
     gap: 20px;
     justify-content: center;
+}
+
+.screen {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.game-selection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+.game-selection h2 {
+    margin: 0;
+    font-size: 24px;
+    white-space: nowrap;
+}
+
+#game-dropdown {
+    padding: 10px;
+    font-size: 18px;
+    background-color: #2d3031;
+    color: #e8e6e3;
+    border: 1px solid #3c3f41;
+    border-radius: 4px;
+    flex-grow: 1;
+    max-width: 400px;
+    cursor: pointer;
 }
 
 .main-content input {
@@ -61,7 +114,7 @@ a, a:visited {
     min-width: 800px;
 }
 
-.input button, .output button {
+.input button, .output button, .copy-btn {
     padding: 15px 20px;
     font-size: 18px;
     background-color: #2d3031;
@@ -74,4 +127,28 @@ a, a:visited {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.extra-outputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.output-item {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3c3f41;
+}
+
+.lobby-desc {
+    font-size: 18px;
+    color: #e8e6e3;
+    font-weight: bold;
+}
+
+.output-item .output {
+    min-width: 800px;
 }
