@@ -9,6 +9,7 @@ const autoScreen = document.getElementById("automatic-screen");
 const manualScreen = document.getElementById("manual-screen");
 const dynamicContainer = document.getElementById("dynamic-outputs-container");
 const gameDropdown = document.getElementById("game-dropdown");
+const includeFinishedCheck = document.getElementById('include-finished');
 const rtBase = "https://racetime.gg";
 const mtBase = "https://multitwitch.tv/";
 let allCategories = [];
@@ -32,7 +33,14 @@ async function getStreams(fullDataUrl) {
         const data = await response.json();
         if (data.entrants && Array.isArray(data.entrants)) {
             const list = data.entrants
-                .filter((item) => item.user && item.user.twitch_name)
+                .filter((item) => {
+                const hasTwitch = item.user && item.user.twitch_name;
+                const isFinished = item.status.value === 'done';
+                if (!includeFinishedCheck.checked && isFinished) {
+                    return false;
+                }
+                return hasTwitch;
+            })
                 .map((item) => item.user.twitch_name);
             return list.length > 0
                 ? `${mtBase}${list.join("/")}`
@@ -49,15 +57,18 @@ async function populateCategories() {
         const response = await fetch("./games/games.json");
         const data = await response.json();
         allCategories = data.categories || data;
+        const savedGame = localStorage.getItem("lastSelectedGame") || "hitman-3";
         gameDropdown.innerHTML = "";
         allCategories.forEach((game) => {
             const option = document.createElement("option");
             option.value = game.slug;
             option.textContent = game.name;
-            if (game.slug === "hitman-3")
+            if (game.slug === savedGame)
                 option.selected = true;
             gameDropdown.appendChild(option);
         });
+        const savedIncludeFinished = localStorage.getItem("includeFinished") === "true";
+        includeFinishedCheck.checked = savedIncludeFinished;
         getLobbies();
     }
     catch (err) {
@@ -91,7 +102,7 @@ async function renderLobbies(races) {
         const mtLink = await getStreams(`${rtBase}${race.data_url}`);
         lobbyBox.innerHTML = `
             <span class="lobby-desc">
-                ${race.goal.name} - ${race.entrants_count} entrants - 
+                ${race.goal.name} - ${race.entrants_count} entrants (${race.entrants_count_finished} finished) - 
                 ${race.status.verbose_value} -
                 <a href="${rtBase}${race.url}" target="_blank" rel="noopener noreferrer">${rtBase}${race.url}</a>
                 
@@ -128,7 +139,17 @@ copyBtn.addEventListener("click", () => {
     copyBtn.textContent = "Copied";
     setTimeout(() => (copyBtn.textContent = "Copy"), 1000);
 });
-gameDropdown.addEventListener("change", getLobbies);
+includeFinishedCheck.addEventListener('change', () => {
+    localStorage.setItem("includeFinished", includeFinishedCheck.checked.toString());
+    const isAuto = autoScreen.style.display !== 'none';
+    if (isAuto) {
+        getLobbies();
+    }
+});
+gameDropdown.addEventListener("change", () => {
+    localStorage.setItem("lastSelectedGame", gameDropdown.value);
+    getLobbies();
+});
 populateCategories();
 export {};
 //# sourceMappingURL=scripts.js.map

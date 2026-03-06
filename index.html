@@ -24,7 +24,7 @@
                 multitwitch link of said race</br></br>
                 The site requires participants to have their twitch accounts linked to their racetime profiles for it to
                 work.</br></br>
-                This site was developed for the hitman community, which is why that is the selected default game.</br></br>
+                This site was developed for the hitman community, which is why that is the selected default game, but the site will remember your last selected game.</br></br>
                 A special thanks to racetime.gg for being an amazing site.</p>
         </div>
 
@@ -35,6 +35,12 @@
                     <select id="game-dropdown">
                         <option value="" disabled selected>Select a category...</option>
                     </select>
+                    <div class="toggle-container">
+                        <label for="include-finished">
+                            <input type="checkbox" id="include-finished">
+                            Include finished players
+                        </label>
+                    </div>
                 </div>
 
                 <div id="dynamic-outputs-container" class="extra-outputs">

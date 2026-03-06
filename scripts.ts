@@ -15,6 +15,7 @@ const dynamicContainer = document.getElementById(
 const gameDropdown = document.getElementById(
   "game-dropdown",
 ) as HTMLSelectElement;
+const includeFinishedCheck = document.getElementById('include-finished') as HTMLInputElement;
 
 const rtBase = "https://racetime.gg";
 const mtBase = "https://multitwitch.tv/";
@@ -22,6 +23,7 @@ let allCategories: GameCategory[] = [];
 
 interface Entrant {
   user: { twitch_name: string };
+  status: { value: string };
 }
 interface GameCategory {
   name: string;
@@ -35,6 +37,7 @@ interface Race {
   goal: { name: string };
   entrants_count: number;
   status: { value: string; verbose_value: string; help_text: string };
+  entrants_count_finished: number;
 }
 
 toggleBtn.addEventListener("click", () => {
@@ -52,23 +55,31 @@ toggleBtn.addEventListener("click", () => {
 });
 
 async function getStreams(fullDataUrl: string): Promise<string> {
-  try {
-    const response = await fetch(fullDataUrl);
-    const data = await response.json();
+    try {
+        const response = await fetch(fullDataUrl);
+        const data = await response.json();
 
-    if (data.entrants && Array.isArray(data.entrants)) {
-      const list = data.entrants
-        .filter((item: Entrant) => item.user && item.user.twitch_name)
-        .map((item: Entrant) => item.user.twitch_name);
+        if (data.entrants && Array.isArray(data.entrants)) {
+            const list = data.entrants
+                .filter((item: Entrant) => {
+                    const hasTwitch = item.user && item.user.twitch_name;
+                    const isFinished = item.status.value === 'done';
+                    
+                    if (!includeFinishedCheck.checked && isFinished) {
+                        return false;
+                    }
+                    return hasTwitch;
+                })
+                .map((item: Entrant) => item.user.twitch_name);
 
-      return list.length > 0
-        ? `${mtBase}${list.join("/")}`
-        : "No Twitch links found";
+            return list.length > 0
+            ? `${mtBase}${list.join("/")}`
+            : "No Twitch links found";
+        }
+        return "No entrants found";
+    } catch {
+        return "Error fetching data";
     }
-    return "No entrants found";
-  } catch {
-    return "Error fetching data";
-  }
 }
 
 async function populateCategories() {
@@ -78,14 +89,19 @@ async function populateCategories() {
 
     allCategories = data.categories || data;
 
+    const savedGame = localStorage.getItem("lastSelectedGame") || "hitman-3";
+
     gameDropdown.innerHTML = "";
     allCategories.forEach((game) => {
       const option = document.createElement("option");
       option.value = game.slug;
       option.textContent = game.name;
-      if (game.slug === "hitman-3") option.selected = true;
+      if (game.slug === savedGame) option.selected = true;
       gameDropdown.appendChild(option);
     });
+
+    const savedIncludeFinished = localStorage.getItem("includeFinished") === "true";
+    includeFinishedCheck.checked = savedIncludeFinished;
 
     getLobbies();
   } catch (err) {
@@ -125,7 +141,7 @@ async function renderLobbies(races: Race[]) {
 
     lobbyBox.innerHTML = `
             <span class="lobby-desc">
-                ${race.goal.name} - ${race.entrants_count} entrants - 
+                ${race.goal.name} - ${race.entrants_count} entrants (${race.entrants_count_finished} finished) - 
                 ${race.status.verbose_value} -
                 <a href="${rtBase}${race.url}" target="_blank" rel="noopener noreferrer">${rtBase}${race.url}</a>
                 
@@ -167,5 +183,17 @@ copyBtn.addEventListener("click", () => {
   setTimeout(() => (copyBtn.textContent = "Copy"), 1000);
 });
 
-gameDropdown.addEventListener("change", getLobbies);
+includeFinishedCheck.addEventListener('change', () => {
+    localStorage.setItem("includeFinished", includeFinishedCheck.checked.toString());
+    const isAuto = autoScreen.style.display !== 'none';
+    if (isAuto) {
+        getLobbies();
+    }
+});
+
+gameDropdown.addEventListener("change", () => {
+    localStorage.setItem("lastSelectedGame", gameDropdown.value);
+    getLobbies();
+});
+
 populateCategories();

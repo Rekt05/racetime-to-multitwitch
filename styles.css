@@ -152,3 +152,46 @@ a, a:visited {
 .output-item .output {
     min-width: 800px;
 }
+
+.toggle-container {
+    margin-top: 0; 
+    display: flex;
+    align-items: center;
+    height: 43px;
+}
+
+.toggle-container label {
+    cursor: pointer;
+    color: #e8e6e3;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    line-height: 1;
+}
+
+#include-finished {
+    appearance: none;
+    
+    width: 43px; 
+    height: 44px; 
+    flex-shrink: 0; 
+    border-radius: 4px;
+    background-color: #2d3031; 
+    border: 1px solid #3c3f41; 
+    
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin: 0;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+#include-finished:checked::after {
+    content: '✔';
+    font-weight: normal;
+    display: block;
+}
