@@ -849,6 +849,14 @@
       "image": "https://racetime.gg/media/COTMR_Cover_Image_GNmu4dS.png"
     },
     {
+      "name": "Clair Obscur: Expedition 33",
+      "short_name": "COE33",
+      "slug": "coe33",
+      "url": "/coe33",
+      "data_url": "/coe33/data",
+      "image": null
+    },
+    {
       "name": "Clash Royale",
       "short_name": "CR",
       "slug": "clashroyale",
@@ -1633,6 +1641,14 @@
       "image": null
     },
     {
+      "name": "Eternal Afternoon",
+      "short_name": "EtAf",
+      "slug": "etaf",
+      "url": "/etaf",
+      "data_url": "/etaf/data",
+      "image": null
+    },
+    {
       "name": "Euro Truck Simulator 2",
       "short_name": "ETS2",
       "slug": "ets2",
@@ -2319,6 +2335,14 @@
       "url": "/haste-bw",
       "data_url": "/haste-bw/data",
       "image": null
+    },
+    {
+      "name": "Hebereke",
+      "short_name": "Hebereke",
+      "slug": "hebereke",
+      "url": "/hebereke",
+      "data_url": "/hebereke/data",
+      "image": "https://racetime.gg/media/hebereke_1hWmrRi.png"
     },
     {
       "name": "Hello Kitty: Roller Rescue",
@@ -3182,6 +3206,46 @@
       "slug": "mksc",
       "url": "/mksc",
       "data_url": "/mksc/data",
+      "image": null
+    },
+    {
+      "name": "Mario Party",
+      "short_name": "MP1",
+      "slug": "mp1",
+      "url": "/mp1",
+      "data_url": "/mp1/data",
+      "image": null
+    },
+    {
+      "name": "Mario Party 2",
+      "short_name": "MP2",
+      "slug": "mp2",
+      "url": "/mp2",
+      "data_url": "/mp2/data",
+      "image": null
+    },
+    {
+      "name": "Mario Party 3",
+      "short_name": "MP3",
+      "slug": "mp3",
+      "url": "/mp3",
+      "data_url": "/mp3/data",
+      "image": null
+    },
+    {
+      "name": "Mario Party 4",
+      "short_name": "MP4",
+      "slug": "mp4",
+      "url": "/mp4",
+      "data_url": "/mp4/data",
+      "image": null
+    },
+    {
+      "name": "Mario Party 5",
+      "short_name": "MP5",
+      "slug": "mp5",
+      "url": "/mp5",
+      "data_url": "/mp5/data",
       "image": null
     },
     {
@@ -4337,6 +4401,14 @@
       "image": "https://racetime.gg/media/Ninja_Reflex.jpg"
     },
     {
+      "name": "Nintendo Land",
+      "short_name": "NL",
+      "slug": "nl",
+      "url": "/nl",
+      "data_url": "/nl/data",
+      "image": "https://racetime.gg/media/nl_aXdkWvX.png"
+    },
+    {
       "name": "Nintendo World Championships: NES Edition",
       "short_name": "NWC:NES",
       "slug": "nwcnes",
@@ -4849,6 +4921,14 @@
       "image": null
     },
     {
+      "name": "PK XD",
+      "short_name": "pkxd",
+      "slug": "pkxd",
+      "url": "/pkxd",
+      "data_url": "/pkxd/data",
+      "image": null
+    },
+    {
       "name": "Plants vs. Zombies",
       "short_name": "PVZ",
       "slug": "pvz",
@@ -5209,6 +5289,14 @@
       "image": null
     },
     {
+      "name": "Poppy Playtime: Chapter 5",
+      "short_name": "poppy5",
+      "slug": "poppy-playtime5",
+      "url": "/poppy-playtime5",
+      "data_url": "/poppy-playtime5/data",
+      "image": null
+    },
+    {
       "name": "Portal",
       "short_name": "Portal",
       "slug": "portal",
@@ -5550,6 +5638,14 @@
       "slug": "re7",
       "url": "/re7",
       "data_url": "/re7/data",
+      "image": null
+    },
+    {
+      "name": "Resident Evil Requiem",
+      "short_name": "RE9",
+      "slug": "re9",
+      "url": "/re9",
+      "data_url": "/re9/data",
       "image": null
     },
     {
@@ -5935,6 +6031,14 @@
       "url": "/shen2",
       "data_url": "/shen2/data",
       "image": null
+    },
+    {
+      "name": "Shining Force 2",
+      "short_name": "SF2",
+      "slug": "sf2",
+      "url": "/sf2",
+      "data_url": "/sf2/data",
+      "image": "https://racetime.gg/media/sf2.jpg"
     },
     {
       "name": "Shining Force: The Legacy of Great Intention",
