@@ -4417,6 +4417,14 @@
       "image": null
     },
     {
+      "name": "Noita",
+      "short_name": "Noita",
+      "slug": "noita",
+      "url": "/noita",
+      "data_url": "/noita/data",
+      "image": null
+    },
+    {
       "name": "Noob Parkour 3D",
       "short_name": "NP3D",
       "slug": "np3d",
@@ -8313,11 +8321,19 @@
       "image": "https://racetime.gg/media/yww.png"
     },
     {
-      "name": "Ys VIII: Lacrimosa of DANA",
+      "name": "Ys VIII: Lacrimosa of Dana",
       "short_name": "Ys VIII",
       "slug": "ysviii",
       "url": "/ysviii",
       "data_url": "/ysviii/data",
+      "image": null
+    },
+    {
+      "name": "Ys VIII: Lacrimosa Of Dana Randomizer",
+      "short_name": "ys8r",
+      "slug": "ys8rando",
+      "url": "/ys8rando",
+      "data_url": "/ys8rando/data",
       "image": null
     },
     {
