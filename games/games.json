@@ -3089,6 +3089,14 @@
       "image": null
     },
     {
+      "name": "Mario & Luigi: Brothership",
+      "short_name": "M&L:B",
+      "slug": "mlb",
+      "url": "/mlb",
+      "data_url": "/mlb/data",
+      "image": null
+    },
+    {
       "name": "Mario & Luigi: Partners in Time",
       "short_name": "M&L:PiT",
       "slug": "mlpit",
@@ -5222,6 +5230,14 @@
       "slug": "pkmnscarletviolet",
       "url": "/pkmnscarletviolet",
       "data_url": "/pkmnscarletviolet/data",
+      "image": null
+    },
+    {
+      "name": "Pokémon Sun/Moon",
+      "short_name": "pkmnsm",
+      "slug": "pkmnsm",
+      "url": "/pkmnsm",
+      "data_url": "/pkmnsm/data",
       "image": null
     },
     {
