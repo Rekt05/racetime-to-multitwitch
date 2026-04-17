@@ -8455,6 +8455,14 @@
       "url": "/zoocube",
       "data_url": "/zoocube/data",
       "image": "https://racetime.gg/media/cover_LxLe31z.jpg"
+    },
+    {
+      "name": "ZORA (Zelda One Randomizer App)",
+      "short_name": "zora",
+      "slug": "zora",
+      "url": "/zora",
+      "data_url": "/zora/data",
+      "image": null
     }
   ]
 }
