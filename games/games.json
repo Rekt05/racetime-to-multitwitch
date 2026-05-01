@@ -113,8 +113,8 @@
       "image": null
     },
     {
-      "name": "ALttPR Ladder",
-      "short_name": "Ladder",
+      "name": "ALttPR Step Ladder",
+      "short_name": "Step Ladder",
       "slug": "alttpr-ladder",
       "url": "/alttpr-ladder",
       "data_url": "/alttpr-ladder/data",
@@ -2465,6 +2465,22 @@
       "image": null
     },
     {
+      "name": "Hotline Miami",
+      "short_name": "HM",
+      "slug": "hotline-miami",
+      "url": "/hotline-miami",
+      "data_url": "/hotline-miami/data",
+      "image": null
+    },
+    {
+      "name": "Hotline Miami 2: Wrong Number",
+      "short_name": "HM2",
+      "slug": "hotline-miami-2",
+      "url": "/hotline-miami-2",
+      "data_url": "/hotline-miami-2/data",
+      "image": null
+    },
+    {
       "name": "Human Fall Flat",
       "short_name": "hff",
       "slug": "hff",
@@ -4351,6 +4367,14 @@
       "url": "/nsmbw",
       "data_url": "/nsmbw/data",
       "image": "https://racetime.gg/media/New_Super_Mario_Bros._Wii-285x380.jpg"
+    },
+    {
+      "name": "New Super Mario Randomizer Wii",
+      "short_name": "NSMRWii",
+      "slug": "nsmrwii",
+      "url": "/nsmrwii",
+      "data_url": "/nsmrwii/data",
+      "image": null
     },
     {
       "name": "Nexomon",
