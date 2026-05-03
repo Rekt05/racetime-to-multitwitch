@@ -1489,6 +1489,14 @@
       "image": "https://racetime.gg/media/DWRCoverArt.png"
     },
     {
+      "name": "Dragon's Lair (1983)",
+      "short_name": "DL",
+      "slug": "dragons-lair",
+      "url": "/dragons-lair",
+      "data_url": "/dragons-lair/data",
+      "image": null
+    },
+    {
       "name": "Drake & Josh: Talent Showdown",
       "short_name": "DJTS",
       "slug": "djts",
