@@ -369,6 +369,14 @@
       "image": "https://racetime.gg/media/Battalionwarsbox.jpg"
     },
     {
+      "name": "Battle For Dream Island Again: Episode 5b",
+      "short_name": "BFDIA 5B/ 5B",
+      "slug": "bfdia-5b",
+      "url": "/bfdia-5b",
+      "data_url": "/bfdia-5b/data",
+      "image": null
+    },
+    {
       "name": "Bendy and the Ink Machine",
       "short_name": "BatIM",
       "slug": "batim",
@@ -1494,6 +1502,14 @@
       "slug": "dragons-lair",
       "url": "/dragons-lair",
       "data_url": "/dragons-lair/data",
+      "image": null
+    },
+    {
+      "name": "Dragon's Lair II: Time Warp",
+      "short_name": "DL2TW",
+      "slug": "dragons-lair-2",
+      "url": "/dragons-lair-2",
+      "data_url": "/dragons-lair-2/data",
       "image": null
     },
     {
