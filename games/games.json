@@ -3937,6 +3937,14 @@
       "image": "https://racetime.gg/media/mcmg.jpg"
     },
     {
+      "name": "Multiple Gamecube Games",
+      "short_name": "gamecube",
+      "slug": "multigamecube",
+      "url": "/multigamecube",
+      "data_url": "/multigamecube/data",
+      "image": null
+    },
+    {
       "name": "Multiple GTA Games",
       "short_name": "MultiGTA",
       "slug": "multi-gta",
@@ -3983,14 +3991,6 @@
       "url": "/sprash",
       "data_url": "/sprash/data",
       "image": null
-    },
-    {
-      "name": "Mush",
-      "short_name": "Mush",
-      "slug": "multigamecube",
-      "url": "/multigamecube",
-      "data_url": "/multigamecube/data",
-      "image": "https://racetime.gg/media/multigamecube.png"
     },
     {
       "name": "MX Simulator",
