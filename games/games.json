@@ -8473,6 +8473,14 @@
       "image": "https://racetime.gg/media/Zelda_II__The_Adventure_of_Link-285x380_kMA0J50.jpg"
     },
     {
+      "name": "Zelda One Randomizer App",
+      "short_name": "zora",
+      "slug": "zora",
+      "url": "/zora",
+      "data_url": "/zora/data",
+      "image": null
+    },
+    {
       "name": "Zelda: The Wand of Gamelon",
       "short_name": "TWoG",
       "slug": "twog",
@@ -8503,14 +8511,6 @@
       "url": "/zoocube",
       "data_url": "/zoocube/data",
       "image": "https://racetime.gg/media/cover_LxLe31z.jpg"
-    },
-    {
-      "name": "ZORA (Zelda One Randomizer App)",
-      "short_name": "zora",
-      "slug": "zora",
-      "url": "/zora",
-      "data_url": "/zora/data",
-      "image": null
     }
   ]
 }
