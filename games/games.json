@@ -5729,6 +5729,14 @@
       "image": "https://racetime.gg/media/Resident_Evil_Village-144x192.jpg"
     },
     {
+      "name": "Retro City Rampage",
+      "short_name": "RCR",
+      "slug": "rcr",
+      "url": "/rcr",
+      "data_url": "/rcr/data",
+      "image": null
+    },
+    {
       "name": "Return to Castle Wolfenstein",
       "short_name": "RtCW",
       "slug": "rtcw",
@@ -7097,6 +7105,14 @@
       "image": "https://racetime.gg/media/Super_Mario_Sunshine-285x380.jpg"
     },
     {
+      "name": "Super Mario Sunshine Online",
+      "short_name": "SMSO",
+      "slug": "smso",
+      "url": "/smso",
+      "data_url": "/smso/data",
+      "image": null
+    },
+    {
       "name": "Super Mario Sunshine Randomizer",
       "short_name": "SMSR",
       "slug": "smsr",
@@ -7679,6 +7695,14 @@
       "url": "/tp",
       "data_url": "/tp/data",
       "image": "https://racetime.gg/media/The_Legend_of_Zelda_Twilight_Princess_Game_Cover_uak3vFG.jpg"
+    },
+    {
+      "name": "The Legend of Zelda: Twilight Princess - Dusklight",
+      "short_name": "Dusklight",
+      "slug": "dusklight",
+      "url": "/dusklight",
+      "data_url": "/dusklight/data",
+      "image": null
     },
     {
       "name": "The Legend of Zelda: Twilight Princess HD",
