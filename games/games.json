@@ -7185,6 +7185,22 @@
       "image": "https://racetime.gg/media/croc_final.png"
     },
     {
+      "name": "Super Metroid: Project Base",
+      "short_name": "smpb",
+      "slug": "smpb",
+      "url": "/smpb",
+      "data_url": "/smpb/data",
+      "image": "https://racetime.gg/media/smpb.png"
+    },
+    {
+      "name": "Super Metroid: Project Base Randomizer",
+      "short_name": "smpbr",
+      "slug": "smpbr",
+      "url": "/smpbr",
+      "data_url": "/smpbr/data",
+      "image": "https://racetime.gg/media/smpbr.jpg"
+    },
+    {
       "name": "Super Paper Mario",
       "short_name": "SPM",
       "slug": "spm",
