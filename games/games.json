@@ -3937,14 +3937,6 @@
       "image": "https://racetime.gg/media/mcmg.jpg"
     },
     {
-      "name": "Multiple Gamecube Games",
-      "short_name": "gamecube",
-      "slug": "multigamecube",
-      "url": "/multigamecube",
-      "data_url": "/multigamecube/data",
-      "image": null
-    },
-    {
       "name": "Multiple GTA Games",
       "short_name": "MultiGTA",
       "slug": "multi-gta",
@@ -6145,6 +6137,14 @@
       "image": null
     },
     {
+      "name": "Short/Misc Short/Misc Xbox Games",
+      "short_name": "SM-SMXbox",
+      "slug": "multigamecube",
+      "url": "/multigamecube",
+      "data_url": "/multigamecube/data",
+      "image": null
+    },
+    {
       "name": "SIGNALIS",
       "short_name": "signalis",
       "slug": "signalis",
@@ -7255,6 +7255,14 @@
       "url": "/supersmashtv",
       "data_url": "/supersmashtv/data",
       "image": "https://racetime.gg/media/snes_super_smash_tv_front.jpg"
+    },
+    {
+      "name": "Super16",
+      "short_name": "Super16",
+      "slug": "super16",
+      "url": "/super16",
+      "data_url": "/super16/data",
+      "image": "https://racetime.gg/media/super16.png"
     },
     {
       "name": "Superfighters Deluxe",
