@@ -297,6 +297,14 @@
       "image": "https://racetime.gg/media/365429-axiom-verge-xbox-one-front-cover.png.jpg"
     },
     {
+      "name": "Bad Way",
+      "short_name": "Bad Way",
+      "slug": "bad-way",
+      "url": "/bad-way",
+      "data_url": "/bad-way/data",
+      "image": "https://racetime.gg/media/bad-way.jpg"
+    },
+    {
       "name": "Balatro",
       "short_name": "Balatro",
       "slug": "balatro",
@@ -6153,6 +6161,14 @@
       "image": "https://racetime.gg/media/Signalis_cover.jpg"
     },
     {
+      "name": "Silent Bomber",
+      "short_name": "Silent Bomber",
+      "slug": "silent-bomber",
+      "url": "/silent-bomber",
+      "data_url": "/silent-bomber/data",
+      "image": null
+    },
+    {
       "name": "Simple FPS Platformer",
       "short_name": "SFP",
       "slug": "simple-fps-platformer",
@@ -6599,6 +6615,14 @@
       "url": "/spyro3",
       "data_url": "/spyro3/data",
       "image": "https://racetime.gg/media/s3cover.png"
+    },
+    {
+      "name": "Star Fox (2026)",
+      "short_name": "Star Fox",
+      "slug": "sf2026",
+      "url": "/sf2026",
+      "data_url": "/sf2026/data",
+      "image": null
     },
     {
       "name": "Star Fox 64",
