@@ -6145,14 +6145,6 @@
       "image": null
     },
     {
-      "name": "Short/Misc Short/Misc Xbox Games",
-      "short_name": "SM-SMXbox",
-      "slug": "multigamecube",
-      "url": "/multigamecube",
-      "data_url": "/multigamecube/data",
-      "image": null
-    },
-    {
       "name": "SIGNALIS",
       "short_name": "signalis",
       "slug": "signalis",
@@ -6510,6 +6502,14 @@
       "slug": "sgl",
       "url": "/sgl",
       "data_url": "/sgl/data",
+      "image": null
+    },
+    {
+      "name": "SpeedrunsSP",
+      "short_name": "SRSP",
+      "slug": "multigamecube",
+      "url": "/multigamecube",
+      "data_url": "/multigamecube/data",
       "image": null
     },
     {
