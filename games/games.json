@@ -313,6 +313,14 @@
       "image": null
     },
     {
+      "name": "Baldi's Basics Plus",
+      "short_name": "BBP",
+      "slug": "bbp",
+      "url": "/bbp",
+      "data_url": "/bbp/data",
+      "image": null
+    },
+    {
       "name": "Banjo-Kazooie",
       "short_name": "BK",
       "slug": "bk",
@@ -2518,6 +2526,14 @@
       "slug": "hff",
       "url": "/hff",
       "data_url": "/hff/data",
+      "image": null
+    },
+    {
+      "name": "Hyper Metroid",
+      "short_name": "hypm",
+      "slug": "hypm",
+      "url": "/hypm",
+      "data_url": "/hypm/data",
       "image": null
     },
     {
@@ -5215,6 +5231,14 @@
       "url": "/pkmnplat",
       "data_url": "/pkmnplat/data",
       "image": "https://racetime.gg/media/pkmnpt.png"
+    },
+    {
+      "name": "Pokemon Platinum Randomizer",
+      "short_name": "PPR",
+      "slug": "ppr",
+      "url": "/ppr",
+      "data_url": "/ppr/data",
+      "image": null
     },
     {
       "name": "Pokémon Puzzle Challenge",
