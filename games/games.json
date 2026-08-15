@@ -1649,6 +1649,14 @@
       "image": "https://racetime.gg/media/ebrtgg.jpg"
     },
     {
+      "name": "Ekorella Chronicles",
+      "short_name": "Ekorella",
+      "slug": "ekorella",
+      "url": "/ekorella",
+      "data_url": "/ekorella/data",
+      "image": null
+    },
+    {
       "name": "Elden Ring",
       "short_name": "ER",
       "slug": "eldenring",
@@ -3753,6 +3761,14 @@
       "image": "https://racetime.gg/media/MP3A.jpg"
     },
     {
+      "name": "Metroid Prime Origins",
+      "short_name": "mporg",
+      "slug": "mporg",
+      "url": "/mporg",
+      "data_url": "/mporg/data",
+      "image": "https://racetime.gg/media/mporg.png"
+    },
+    {
       "name": "Metroid Prime Randomizer",
       "short_name": "MPR",
       "slug": "mpr",
@@ -5174,6 +5190,14 @@
       "slug": "pkmnla",
       "url": "/pkmnla",
       "data_url": "/pkmnla/data",
+      "image": null
+    },
+    {
+      "name": "Pokémon Mystery Dungeon (WiiWare)",
+      "short_name": "pmdwii",
+      "slug": "pmdwii",
+      "url": "/pmdwii",
+      "data_url": "/pmdwii/data",
       "image": null
     },
     {
