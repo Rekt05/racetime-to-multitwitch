@@ -3761,8 +3761,8 @@
       "image": "https://racetime.gg/media/MP3A.jpg"
     },
     {
-      "name": "Metroid Prime Origins",
-      "short_name": "mporg",
+      "name": "Metroid Prime Origins Randomizer",
+      "short_name": "mporg_rando",
       "slug": "mporg",
       "url": "/mporg",
       "data_url": "/mporg/data",
