@@ -801,14 +801,6 @@
       "image": null
     },
     {
-      "name": "Chicken Gun",
-      "short_name": "CGun",
-      "slug": "cgun",
-      "url": "/cgun",
-      "data_url": "/cgun/data",
-      "image": null
-    },
-    {
       "name": "Children of Silentown",
       "short_name": "CoS",
       "slug": "cos",
@@ -4505,6 +4497,14 @@
       "image": null
     },
     {
+      "name": "No Idea",
+      "short_name": "NoId",
+      "slug": "cgun",
+      "url": "/cgun",
+      "data_url": "/cgun/data",
+      "image": null
+    },
+    {
       "name": "Noita",
       "short_name": "Noita",
       "slug": "noita",
@@ -6193,6 +6193,14 @@
       "image": null
     },
     {
+      "name": "Short/Misc Xbox",
+      "short_name": "Xbox",
+      "slug": "multigamecube",
+      "url": "/multigamecube",
+      "data_url": "/multigamecube/data",
+      "image": null
+    },
+    {
       "name": "SIGNALIS",
       "short_name": "signalis",
       "slug": "signalis",
@@ -6550,14 +6558,6 @@
       "slug": "sgl",
       "url": "/sgl",
       "data_url": "/sgl/data",
-      "image": null
-    },
-    {
-      "name": "SpeedrunsSP",
-      "short_name": "SRSP",
-      "slug": "multigamecube",
-      "url": "/multigamecube",
-      "data_url": "/multigamecube/data",
       "image": null
     },
     {
