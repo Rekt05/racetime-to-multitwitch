@@ -3753,6 +3753,14 @@
       "image": "https://racetime.gg/media/MP3A.jpg"
     },
     {
+      "name": "Metroid Prime Origins",
+      "short_name": "mpog",
+      "slug": "mpog",
+      "url": "/mpog",
+      "data_url": "/mpog/data",
+      "image": null
+    },
+    {
       "name": "Metroid Prime Origins Randomizer",
       "short_name": "mporg_rando",
       "slug": "mporg",
@@ -3919,6 +3927,14 @@
       "url": "/moorhuhn-kart",
       "data_url": "/moorhuhn-kart/data",
       "image": "https://racetime.gg/media/moorhuhn-kart.jpg"
+    },
+    {
+      "name": "Mortal Kombat Shaolin Monks",
+      "short_name": "MKSM",
+      "slug": "mksm",
+      "url": "/mksm",
+      "data_url": "/mksm/data",
+      "image": null
     },
     {
       "name": "Moto X3M Spooky Land",
@@ -5777,6 +5793,14 @@
       "image": "https://racetime.gg/media/Resident_Evil_Village-144x192.jpg"
     },
     {
+      "name": "Retro Bowl",
+      "short_name": "RB",
+      "slug": "rb",
+      "url": "/rb",
+      "data_url": "/rb/data",
+      "image": null
+    },
+    {
       "name": "Retro City Rampage",
       "short_name": "RCR",
       "slug": "rcr",
@@ -6569,6 +6593,14 @@
       "image": "https://racetime.gg/media/MV5BOTBlOWU4MjItMTUwMi00ZjI3LWE0ZGItY2NmZjJiYTYxMWEyXk_1_1_1_1.jpg"
     },
     {
+      "name": "Spiral Knights",
+      "short_name": "SK",
+      "slug": "sk",
+      "url": "/sk",
+      "data_url": "/sk/data",
+      "image": null
+    },
+    {
       "name": "Splatoon",
       "short_name": "S1",
       "slug": "splatoon",
@@ -6735,6 +6767,14 @@
       "url": "/kotor",
       "data_url": "/kotor/data",
       "image": "https://racetime.gg/media/cover-256_S7ZvCJW.jpg"
+    },
+    {
+      "name": "Star Wars: The Empire Strikes Back",
+      "short_name": "SWTESB",
+      "slug": "swtesb",
+      "url": "/swtesb",
+      "data_url": "/swtesb/data",
+      "image": null
     },
     {
       "name": "Star Wars: The Force Unleashed (Sixth Gen Platforms)",
@@ -7223,6 +7263,22 @@
       "url": "/smb",
       "data_url": "/smb/data",
       "image": "https://racetime.gg/media/SuperMeatBoy_cover.png"
+    },
+    {
+      "name": "Super Mega Baseball 3",
+      "short_name": "SMBB3",
+      "slug": "smbb3",
+      "url": "/smbb3",
+      "data_url": "/smbb3/data",
+      "image": null
+    },
+    {
+      "name": "Super Mega Baseball 4",
+      "short_name": "SMB4",
+      "slug": "smb4",
+      "url": "/smb4",
+      "data_url": "/smb4/data",
+      "image": null
     },
     {
       "name": "Super Metroid",
