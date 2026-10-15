@@ -3758,7 +3758,7 @@
       "slug": "mpog",
       "url": "/mpog",
       "data_url": "/mpog/data",
-      "image": null
+      "image": "https://racetime.gg/media/mpog.jpg"
     },
     {
       "name": "Metroid Prime Origins Randomizer",
@@ -6774,7 +6774,7 @@
       "slug": "swtesb",
       "url": "/swtesb",
       "data_url": "/swtesb/data",
-      "image": null
+      "image": "https://racetime.gg/media/swtesb.jpg"
     },
     {
       "name": "Star Wars: The Force Unleashed (Sixth Gen Platforms)",
