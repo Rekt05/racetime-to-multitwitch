@@ -561,6 +561,14 @@
       "image": "https://racetime.gg/media/Brave_Fencer_Musashi-144x192.jpg"
     },
     {
+      "name": "Brighter Shores",
+      "short_name": "shores",
+      "slug": "brighter-shores",
+      "url": "/brighter-shores",
+      "data_url": "/brighter-shores/data",
+      "image": null
+    },
+    {
       "name": "Bubsy in Claws Encounters of the Furred Kind",
       "short_name": "Bubsy",
       "slug": "bubsy",
@@ -711,6 +719,14 @@
       "url": "/cv3dc",
       "data_url": "/cv3dc/data",
       "image": "https://racetime.gg/media/083717110217.jpg"
+    },
+    {
+      "name": "Castlevania: Belmont's Curse",
+      "short_name": "CVBC",
+      "slug": "cvbc",
+      "url": "/cvbc",
+      "data_url": "/cvbc/data",
+      "image": null
     },
     {
       "name": "Castlevania: Bloodlines",
@@ -1167,6 +1183,14 @@
       "url": "/deltarune",
       "data_url": "/deltarune/data",
       "image": "https://racetime.gg/media/Deltarune.jpg"
+    },
+    {
+      "name": "Deltarune Chapter 2",
+      "short_name": "DRCh2",
+      "slug": "dr-ch2",
+      "url": "/dr-ch2",
+      "data_url": "/dr-ch2/data",
+      "image": null
     },
     {
       "name": "Destiny 2",
@@ -4921,6 +4945,14 @@
       "image": "https://racetime.gg/media/pepsi_rtgg.jpg"
     },
     {
+      "name": "Perfect Dark Randomizer",
+      "short_name": "pdr",
+      "slug": "pdr",
+      "url": "/pdr",
+      "data_url": "/pdr/data",
+      "image": null
+    },
+    {
       "name": "Persona 3 FES",
       "short_name": "P3F",
       "slug": "p3fes",
@@ -5823,6 +5855,14 @@
       "url": "/rhf",
       "data_url": "/rhf/data",
       "image": "https://racetime.gg/media/SOME01.png"
+    },
+    {
+      "name": "Rhythm Heaven Groove",
+      "short_name": "RHG",
+      "slug": "rhg",
+      "url": "/rhg",
+      "data_url": "/rhg/data",
+      "image": null
     },
     {
       "name": "Riddle School",
@@ -7679,6 +7719,14 @@
       "url": "/botwr",
       "data_url": "/botwr/data",
       "image": "https://racetime.gg/media/botwr.png"
+    },
+    {
+      "name": "The Legend of Zelda: Dungeons of Infinity",
+      "short_name": "DoI",
+      "slug": "doi",
+      "url": "/doi",
+      "data_url": "/doi/data",
+      "image": null
     },
     {
       "name": "The Legend of Zelda: Echoes of Wisdom",
