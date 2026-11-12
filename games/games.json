@@ -2993,6 +2993,14 @@
       "image": null
     },
     {
+      "name": "Level Devil",
+      "short_name": "LD",
+      "slug": "ld",
+      "url": "/ld",
+      "data_url": "/ld/data",
+      "image": null
+    },
+    {
       "name": "Levelhead",
       "short_name": "LH",
       "slug": "levelhead",
@@ -6393,6 +6401,14 @@
       "image": null
     },
     {
+      "name": "Snake Rattle 'n' Roll",
+      "short_name": "SRNR",
+      "slug": "srnr",
+      "url": "/srnr",
+      "data_url": "/srnr/data",
+      "image": null
+    },
+    {
       "name": "Snow Bros. 2: With New Elves",
       "short_name": "SB2",
       "slug": "snowbros2",
@@ -6607,6 +6623,14 @@
       "url": "/stg-demo",
       "data_url": "/stg-demo/data",
       "image": null
+    },
+    {
+      "name": "South Park '98",
+      "short_name": "SP98",
+      "slug": "sp98",
+      "url": "/sp98",
+      "data_url": "/sp98/data",
+      "image": "https://racetime.gg/media/sp98.jpg"
     },
     {
       "name": "Space Station Silicon Valley",
@@ -7726,7 +7750,7 @@
       "slug": "doi",
       "url": "/doi",
       "data_url": "/doi/data",
-      "image": null
+      "image": "https://racetime.gg/media/doi.webp"
     },
     {
       "name": "The Legend of Zelda: Echoes of Wisdom",
@@ -7791,6 +7815,14 @@
       "url": "/oot",
       "data_url": "/oot/data",
       "image": "https://racetime.gg/media/The_Legend_of_Zelda__Ocarina_of_Time-285x380_3qDKVQU.jpg"
+    },
+    {
+      "name": "The Legend of Zelda: Ocarina of Time 2026",
+      "short_name": "OoT2026",
+      "slug": "oot2026",
+      "url": "/oot2026",
+      "data_url": "/oot2026/data",
+      "image": "https://racetime.gg/media/oot2026.png"
     },
     {
       "name": "The Legend of Zelda: Ocarina of Time 3D",
