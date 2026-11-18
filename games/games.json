@@ -2193,6 +2193,14 @@
       "image": "https://racetime.gg/media/cover-256_1.jpg"
     },
     {
+      "name": "Grand Theft Auto VI",
+      "short_name": "GTA 6",
+      "slug": "gtavi",
+      "url": "/gtavi",
+      "data_url": "/gtavi/data",
+      "image": null
+    },
+    {
       "name": "Grand Theft Auto: Chinatown Wars",
       "short_name": "GTA:CW",
       "slug": "gtacw",
